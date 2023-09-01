@@ -7,7 +7,7 @@ here it is the screenshot of the solution on difreent screen size
 ![mobile disgn](images/Screenshot_2.png)
 
 *Links
- - Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+ - Live Site URL:(https://girma3.github.io/testimonials-grid-section/)
 
 This project is about creating responsive testimonial card with grid layout  in this project I use
     -HTML
