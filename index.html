@@ -2,97 +2,15 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="card.css">
   <title>Frontend Mentor | testimonial-grid</title>
 
 </head>
   
 <body>
-  <style>
-    @import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@600&display=swap');
-*{
-  font-family:'Barlow Semi Condensed',monospace, sans-serif; 
-  font-weight: 500;
-}
-.card{
-  --card-border-radius:1rem;
-  --card-padding: 2rem;
-  --card-height:fit-content;
-  
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: 1rem;
-
-}
-/* the grid layout should contain 2 rows and 4 columns */
-
-  .profile{
-    display: flex;
-    gap: 2rem;
-    align-items: center;
-  }
  
-  img{
-    border-radius: 50%;
-    max-width: 100%;
-    display: block;
-  }
-  
-  p{
-    font-size: clamp( 0.75rem,2vw, 1rem);
-    font-weight: 500;
-    line-height:1.2rem; 
-    opacity: 75%;
-  }
-  .name{
-    font-size: 1rem;
-   
-  }
-  .name + p{
-    line-height: 0.5rem;
-  }
-  .user{
-    line-height: 1rem;
-  }
-  .education{
-    font-size: 1rem;
-  opacity: 50%;
-  }
-  .card-1{
-    height: var(--card-height);
-    background-color: hsl(263, 55%, 52%) ;
-    color: white;
-    padding: var(--card-padding);
-    border-radius: var(--card-border-radius);
-  }
-  .card-2{
-    height: var(--card-height);
-    background-color: hsl(217, 19%, 35%);
-    color: white;
-    border-radius: var(--card-border-radius);
-    padding: var(--card-padding);
-  }
-  .card-5{
-    height: var(--card-height);
-    background-color: hsl(219, 29%, 14%);
-    color: white;
-    padding: var(--card-padding);
-    border-radius: var(--card-border-radius);
-  }
-  .card-3,.card-4{
-    height: var(--card-height);
-     background-color:hsl(210, 46%, 95%) ; 
-     color:hsl(219, 29%, 14%);
-     border-radius: var(--card-border-radius);
-     padding: var(--card-padding);
-  }
-  .card-3 > h5,.card-4 >h5 {
-    color:hsl(219, 29%, 14%);
-  }
-  
-  </style>
-
   <main class="card">
 
      <div class="card-1">
